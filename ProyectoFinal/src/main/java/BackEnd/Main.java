@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
-
+package BackEnd;
+import FrontEnd.*;
 /**
  *
  * @author Sammy Guergachi <sguergachi at gmail.com>
@@ -16,7 +16,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("palacios2022");
+        Login login1 = new Login();
+        login1.setVisible(true);
     }
     
 }
